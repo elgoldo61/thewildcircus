@@ -4,13 +4,17 @@
 			<meta charset="utf-8"/>
 			
 			<title>Mini circus</title>
-
+			<meta name="viewport" content="width=device-width"/>
+			
 		</head>
 
 	<style>
+	
+		
 		body {
 			background: url("http://automatomania.co.uk/circus/wp-content/uploads/2011/12/dscf3736.jpg");
 			background-size: cover;
+			font-family: "trebuchet MS", Arial, sans-serif;
 		}
 
 		header {
@@ -19,8 +23,15 @@
 			width: 50%;
 			margin: 0 auto;
 			opacity: 0.8;
-		}
+			animation-name: animation;
+			animation-duration: 5s;
+			}
 
+			@keyframes animation
+			{
+			from {background-color: black;}
+			to {background-color: green;}
+			}
 		h1 {
 		text-align: center;
 		font-size: 50px;
@@ -28,6 +39,7 @@
 
 		h2 {
 		text-align: center;
+		margin: -25px;
 		}
 		
 		footer {
@@ -69,6 +81,10 @@
 			top: 350px;
 			border-radius: 10px;
 			padding: 15px;
+		}
+
+		a	{
+			font-weight: bolder;
 		}
 	</style>
 	

@@ -4,7 +4,9 @@
 			<meta charset="utf-8"/>
 			
 			<title>Kings of the Jungle</title>
-
+			<meta name="viewport" content="width=device-width"/>
+			
+		
 		</head>
 	<style>
 
@@ -14,6 +16,13 @@
 		width: 50%;
 		margin: 0 auto;
 		opacity: 0.8;
+		animation-name: animation;
+		animation-duration: 5s;
+		}
+	@keyframes animation
+		{
+			from {background-color: black;}
+			to {background-color: yellow;}
 		}
 
 		h1 {
@@ -24,13 +33,16 @@
 		}
 		h2 {
 		text-align: center;
-		color: red;}
+		color: red;
+		margin: -25px;
+		}
 
 
 
 		body {
 			background: url("http://resources2.news.com.au/images/2011/07/22/1226100/041354-warren-lion.jpg");
 			background-size: cover;
+			font-family: "trebuchet MS", Arial, sans-serif;
 		}
 
 		footer {
@@ -63,7 +75,7 @@
 			width: 660px;
 			text-align: justify;
 			position: absolute;
-			top: 360px;
+			top: 370px;
 			border-radius: 10px;
 			padding: 15px;
 		}

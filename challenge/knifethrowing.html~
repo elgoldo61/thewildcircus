@@ -4,6 +4,8 @@
 			<meta charset="utf-8"/>
 			
 			<title>Living on a Knife Edge</title>
+			<meta name="viewport" content="width=device-width"/>
+			
 
 		</head>
 	<style>
@@ -13,6 +15,13 @@
 		width: 50%;
 		margin: 0 auto;
 		opacity: 0.8;
+		animation-name: animation;
+		animation-duration: 5s;
+		}
+		@keyframes animation
+		{
+			from {background-color: black;}
+			to {background-color: white;}
 		}
 
 		h1 {
@@ -24,11 +33,13 @@
 		h2 {
 		text-align: center;
 		color: black;
+		margin: -25px;
 		}
 
 		body {
 			background: url("http://i.ytimg.com/vi/nvjqTW7YtFA/maxresdefault.jpg");
 			background-size: cover;
+			font-family: "trebuchet MS", Arial, sans-serif;
 			}
 
 		footer {
@@ -64,7 +75,7 @@
 		}
 		
 		a	{
-			font-weight: bold;
+			font-weight: bolder;
 		}
 	</style>
 	

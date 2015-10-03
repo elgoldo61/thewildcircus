@@ -4,58 +4,75 @@
 			<meta charset="utf-8"/>
 			
 			<title>The Flying Dream</title>
+			<meta name="viewport" content="width=device-width"/>
+			
+		</head>
 
 	<style>
-		header {
-			background-color: blue;
-			border-radius: 15px;
-			width: 50%;
-			margin: 0 auto;
-			opacity: 0.8;
-			}
+header {
+	background-color: blue;
+	border-radius: 15px;
+	width: 50%;
+	margin: 0 auto;
+	opacity: 0.8;
+	animation-name: animation;
+	animation-duration: 5s;
+	}
 
-		h1 {
-		text-align: center;
-		font-size: 50px;
-		
-		}
-		h2 {
-		text-align: center;
-		}
+@keyframes animation
+	{
+	from {background-color: black;}
+	to {background-color: blue;}
+	}
 
-		body {
-			background: url("http://i.ytimg.com/vi/4Nt3AIGU_d8/maxresdefault.jpg");
-			background-size: cover;
-			}
-		p { 
-			color:white;
-			font-size: 25px;
-			font-weight: bold;
-		}
+h1 
+	{
+	text-align: center;
+	font-size: 50px;
+	}
 
-		footer {
-			background-color: white;
-			width: 5%;
-			text-align: center;
-			position: absolute;
-			left: 100px;
-			border: solid red;
-			bottom: 100px;
-		}
+h2 	{
+	text-align: center;
+	margin: -25px;
+	}
 
-		article {
-			background-color: black;
-			opacity: 0.5;
-			width: 660px;
-			text-align: justify;
-			position: absolute;
-			top: 350px;
-			border-radius: 10px;
-			padding: 15px;
-		}
-		a	{
-			font-weight: bolder;
-		}
+body	{
+	background: url("http://i.ytimg.com/vi/4Nt3AIGU_d8/maxresdefault.jpg");
+	background-size: cover;
+	font-family: "trebuchet MS", Arial, sans-serif;
+	}
+
+p	{ 
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+	}
+
+footer	{
+	background-color: white;
+	width: 5%;
+	text-align: center;
+	position: absolute;
+	left: 100px;
+	border: solid red;
+	bottom: 100px;
+	}
+
+article {
+	background-color: black;
+	opacity: 0.5;
+	width: 660px;
+	text-align: justify;
+	position: absolute;
+	top: 350px;
+	border-radius: 10px;
+	padding: 15px;
+	}
+
+a	{
+	font-weight: bolder;
+	}
+
 	</style>
 
 		</head>

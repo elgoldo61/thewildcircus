@@ -4,6 +4,9 @@
 			<meta charset="utf-8"/>
 			
 			<title>Wild Circus</title>
+			<meta name="viewport" content="width=device-width"/>
+			
+		
 		</head>
 	<style>
 
@@ -13,21 +16,30 @@
 		width: 50%;
 		margin: 0 auto;
 		opacity: 0.8;
-		
+		animation-name: animation;
+		animation-duration: 5s;
 		}
-	h1 {
+	@keyframes animation
+		{
+			from {background-color: black;}
+			to {background-color: red;}
+		}
+
+	h1 	{
 		text-align: center;
 		color:white;
 		font-size: 50px;
 		
 		
 		}
-	h2 {
+	h2 	{
 		text-align: center;
 		color: white;
+		margin: -25px;
 		}
 
-	div { 	color: white;
+	div 	{ 	
+		color: white;
 		position: absolute;
 		top: 350px;
 		left: 290px;
@@ -37,22 +49,23 @@
 		opacity: 0.5;
 		border-radius: 10px;
 		padding: 15px;
+		max-width: 500px;
 	
 		}
 	
 
-	body {
+	body 	{
 		
 		background: url("http://s1.lemde.fr/image/2011/12/28/1167x778/1623495_6_0106_cirque-gruss.jpg");
 		background-size: cover;
-		max-width: 3000px;
-	}
+		font-family: "trebuchet MS", Arial, sans-serif;
+		}
 
-	a {
+	a 	{
 		text-decoration: none;
 		color: white;
 		
-	}
+		}
 
 	a:hover
 		{
@@ -64,7 +77,7 @@
 		background-color: red;
 		}
 	
-	footer {
+	footer  {
 		position: absolute;
 		background-color: black;
 		width: 15%;
@@ -74,7 +87,7 @@
 	
 		}
 
-	span {
+	span 	{
 		font-size: 18px;
 		font-style: italic;
 		}
@@ -83,14 +96,14 @@
 	</style>
 
 		
-	<body>
+<body>
 
-	<header>
+<header>
 
 <h1><strong>The wild Circus</strong></h1>
 <h2>The most amazing circus in the world</h2>
 
-	</header>
+</header>
 	
 
 	<div>
