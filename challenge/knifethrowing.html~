@@ -93,27 +93,38 @@ a	{
 	font-weight: bolder;
 	}
 
+.chainsaw
+	{
+	position: absolute;
+	max-width: 300%;
+	left: 1500px;
+	border: solid black;
+	bottom: 0.5px;
+	}
+
 	</style>
 	
 		<body>
-	<header>
+<header>
 		<h1>Living on a Knife Edge</h1>
 		<h2>Don't try this at home !</h2>
-	</header>
+</header>
 	
-	<article>
+<article>
 	<p>Helen has the faith in jack's talent for using knives, axes and small chainsaws<br />Jack throws everything that's sharped to his wife.<br /> The highlight of the show is when Jack, blindfolded, is cutting around Helen, only guided by her scared screams !</p>
-	</article>
+</article>
 	
-	<div>
+<div>
 	<p>The performers are : Helen and Jack Blade</p>
-	</div>	
+</div>	
 
-	<footer>
+<footer>
 	
 	<a href="index.html">Home</a>
 
-	</footer>
+<img src="chainsaw.jpg" class="chainsaw">
+
+</footer>
 		</body>
 
 

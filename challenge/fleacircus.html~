@@ -94,6 +94,14 @@ a	{
 	font-weight: bolder;
 	}
 
+.flea
+	{
+	position: absolute;
+	max-width: 18%;
+	top: 10px;
+	border: solid black;
+	
+	}
 	</style>
 	
 		<body>
@@ -102,13 +110,13 @@ a	{
 		<h1>Mini circus</h1>
 		<h2>Life at a small scale</h2>
 		
-	</header>
+</header>
 	
-	<article>
+<article>
 	<p>They jump around all the time, just watch their life with a magnifying glass.<br />Our minuscule artists drive, watch the TV, play video games while eating pizzas, learn web developement or even do nothing at all for the pleasure of the audience<P>
-	</article>
+</article>
 	
-	<div>
+<div>
 	<p>The performers are :</p>
 	
 		
@@ -125,10 +133,13 @@ a	{
 			<li>Joey</li>
 
 		</ul>
-		</div>
-	<footer>
+</div>
+
+<footer>
 		<a href="index.html">Home</a>
-	</footer>
+</footer>
+
+<img src="flea.jpg" class="flea">
 
 		</body>
 

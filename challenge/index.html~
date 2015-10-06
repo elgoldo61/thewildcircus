@@ -101,7 +101,12 @@ span 	{
 	color: white;
 	}
 
-
+.circus	{
+	float: right;
+	padding: 10px;
+	border: solid black;
+	}	
+	
 	</style>
 
 		
@@ -134,7 +139,7 @@ span 	{
 
 <a class="contact" href="mailto:wildcircus61@gmail.com">Send us a e-mail ! wildcircus61@gmail.com</a>
 
-<img src="/challenge/circus.jpg">
+<img src="circus.jpg" class="circus">
 
 </footer>
 

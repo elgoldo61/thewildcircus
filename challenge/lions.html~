@@ -94,20 +94,29 @@ a	{
 	font-weight: bolder;
 	}
 
+.lion	{
+	position: absolute;
+	max-width: 20%;
+	height: auto;
+	bottom: 20px;
+	right: 20px;
+	border: solid black;
+	}
+	
 	</style>
 		<body>
 
-	<header>
+<header>
 		<h1>The Kings of the jungle</h1>
 		<h2>They're roaring for your pleasure !</h2>
-	</header>
+</header>
 
-	<article>
+<article>
 	<P>The majesty of the lions will fascinate you !<br />Ace Ventura will show how the lions can be like big cats, playing with a fifty pounds ball of whool, hounding a cow disguised as a mouse. </p>	
 	
-	</article>
+</article>
 
-	<div>
+<div>
 	<p>The performers are :</p>
 			
 		<ul>
@@ -117,10 +126,12 @@ a	{
 			<li>Leo</li>
 			<li>The lion tamer is : Ace Ventura</li>
 		</ul>
-		</div>
-	<footer>
+</div>
+
+<img src="lion.jpg" class="lion">
+<footer>
 	<a href="index.html">Home</a>
-	</footer>
+</footer>
 
 		</body>
 

@@ -91,31 +91,41 @@ div 	{
 	padding: 15px;
 	}
 
+.trapeze	
+	{	
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	border: solid black;
+	}
+
 	</style>
 
 		</head>
 
 	<body>
 
-	<header>
+<header>
 		<h1>The Flying Dream</h1>
 		<h2>Trapeze act</h2>
-	</header>
+</header>
 
-	<div>
+<img src="trapeze.jpg" class="trapeze">
+
+<div>
 
 	<p>The performers are : Maddie and Rob Hangunevenly</p>
 
-	</div>	
+</div>	
 
-	<article>
+<article>
 	<p>Maddie and Rob fly to the air with the greatest of ease, defying the gravity. You will hold your breath while this intense act !!
 	</p> 
-	</article>
+</article>
 	
-	<footer>
+<footer>
 		<a href="index.html">Home</a>
-	</footer>
+</footer>
 
 	</body>
 </html>
