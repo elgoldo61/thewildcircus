@@ -17,12 +17,20 @@ header	{
 	opacity: 0.8;
 	animation-name: animation;
 	animation-duration: 5s;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 5s;
 	}
 
 @keyframes animation
 	{
 	from {background-color: black;}
 	to {background-color: white;}
+	}
+
+@-webkit-keyframes animation
+	{
+	from {background-color: black;}
+	to {background-color: blue;}
 	}
 
 h1	{
@@ -41,6 +49,7 @@ body	{
 	background: url("http://i.ytimg.com/vi/nvjqTW7YtFA/maxresdefault.jpg");
 	background-size: cover;
 	font-family: "trebuchet MS", Arial, sans-serif;
+	max-width: 5000px;
 	}
 
 footer	{
@@ -53,26 +62,31 @@ footer	{
 	bottom: 100px;
 	}
 
-p	{ 
-	color:white;
+p	{	
 	font-size: 25px;
 	font-weight: bold;
 	}
 		
-article {
-	background-color: black;
+article {	
+	background-color: white;
 	opacity: 0.5;
 	width: 660px;
 	text-align: justify;
 	position: absolute;
-	top: 350px;
+	top: 300px;
+	left: 70px;
 	border-radius: 10px;
 	padding: 15px;
 	}
 
 div	{	
-	position: absolute;
+	position: fixed;
 	bottom: 170px;
+	background-color: white;
+	border-radius: 10px;
+	opacity: 0.5;
+	padding: 5px;
+	left: 100px;
 	}
 		
 a	{
@@ -97,7 +111,7 @@ a	{
 
 	<footer>
 	
-	<a href="wild circus.html">Home</a>
+	<a href="index.html">Home</a>
 
 	</footer>
 		</body>

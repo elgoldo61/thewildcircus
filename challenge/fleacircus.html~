@@ -25,12 +25,20 @@ header	{
 	opacity: 0.8;
 	animation-name: animation;
 	animation-duration: 5s;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 5s;
 	}
 
 @keyframes animation
 	{
 	from {background-color: black;}
 	to {background-color: green;}
+	}
+
+@-webkit-keyframes animation
+	{
+	from {background-color: black;}
+	to {background-color: blue;}
 	}
 
 h1	{
@@ -54,14 +62,17 @@ footer	{
 	bottom: 100px;
 	}
 		
-p	{ 
-	color:white;
+p	{	
 	font-size: 25px;
 	font-weight: bold;
 	}
 
 div	{
-	color: white;
+	color: black;
+	background-color: white;
+	opacity: 0.5;
+	border-radius: 10px;
+	padding: 15px;
 	font-size: 20px;
 	position: absolute;
 	top: 200px;
@@ -69,7 +80,7 @@ div	{
 	}
 
 article	{
-	background-color: black;
+	background-color: white;
 	opacity: 0.5;
 	width: 660px;
 	text-align: justify;
@@ -94,7 +105,7 @@ a	{
 	</header>
 	
 	<article>
-	<p>They jump around all the time, just watch their life with a magnifying glass.<br />Our minuscule artists will drive, watch the TV, play video games while eating pizzas, learn web developement or even do nothing at all for the pleasure of the audience<P>
+	<p>They jump around all the time, just watch their life with a magnifying glass.<br />Our minuscule artists drive, watch the TV, play video games while eating pizzas, learn web developement or even do nothing at all for the pleasure of the audience<P>
 	</article>
 	
 	<div>
@@ -116,7 +127,7 @@ a	{
 		</ul>
 		</div>
 	<footer>
-		<a href="wild circus.html">Home</a>
+		<a href="index.html">Home</a>
 	</footer>
 
 		</body>

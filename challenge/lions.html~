@@ -18,12 +18,20 @@ header	{
 	opacity: 0.8;
 	animation-name: animation;
 	animation-duration: 5s;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 5s;
 	}
 
 @keyframes animation
 	{
 	from {background-color: black;}
 	to {background-color: yellow;}
+	}
+
+@-webkit-keyframes animation
+	{
+	from {background-color: black;}
+	to {background-color: blue;}
 	}
 
 h1	{
@@ -42,6 +50,7 @@ body	{
 	background: url("http://resources2.news.com.au/images/2011/07/22/1226100/041354-warren-lion.jpg");
 	background-size: cover;
 	font-family: "trebuchet MS", Arial, sans-serif;
+	max-width: 5000px;
 	}
 
 footer	{
@@ -54,22 +63,24 @@ footer	{
 	bottom: 100px;
 	}
 	
-p	{ 
-	color:white;
+p	{	
 	font-size: 25px;
 	font-weight: bold;
 	}
 		
 div 	{
 	position: absolute;
-	color: white;
+	background-color: white;
 	font-size: 20px;
 	right: 60px;
 	top: 200px;
+	border-radius: 10px;
+	opacity: 0.5;
+	padding: 15px;
 	}
 
 article {
-	background-color: black;
+	background-color: white;
 	opacity: 0.5;
 	width: 660px;
 	text-align: justify;
@@ -92,7 +103,7 @@ a	{
 	</header>
 
 	<article>
-	<P>The majesty of the lions will fascinate you !<br />Ace Ventura will show how the lions can be some big cats, playing with a fifty pounds ball of whool, hounding a cow disguised as a mouse. </p>	
+	<P>The majesty of the lions will fascinate you !<br />Ace Ventura will show how the lions can be like big cats, playing with a fifty pounds ball of whool, hounding a cow disguised as a mouse. </p>	
 	
 	</article>
 
@@ -108,7 +119,7 @@ a	{
 		</ul>
 		</div>
 	<footer>
-	<a href="wild circus.html">Home</a>
+	<a href="index.html">Home</a>
 	</footer>
 
 		</body>

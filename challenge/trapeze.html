@@ -17,6 +17,8 @@ header {
 	opacity: 0.8;
 	animation-name: animation;
 	animation-duration: 5s;
+	-webkit-animation-name: animation;
+	-webkit-animation-duration: 5s;
 	}
 
 @keyframes animation
@@ -25,6 +27,11 @@ header {
 	to {background-color: blue;}
 	}
 
+@-webkit-keyframes animation
+	{
+	from {background-color: black;}
+	to {background-color: blue;}
+	}
 h1 
 	{
 	text-align: center;
@@ -43,8 +50,7 @@ body	{
 	max-width: 5000px;
 	}
 
-p	{ 
-	color:white;
+p	{	
 	font-size: 25px;
 	font-weight: bold;
 	}
@@ -60,7 +66,7 @@ footer	{
 	}
 
 article {
-	background-color: black;
+	background-color: white;
 	opacity: 0.5;
 	width: 660px;
 	text-align: justify;
@@ -74,27 +80,42 @@ a	{
 	font-weight: bolder;
 	}
 
+div 	{
+	position: absolute;
+	background-color: white;
+	font-size: 20px;
+	right: 60px;
+	top: 200px;
+	border-radius: 10px;
+	opacity: 0.5;
+	padding: 15px;
+	}
+
 	</style>
 
 		</head>
 
 	<body>
 
-	<header>
+<header>
 		<h1>The Flying Dream</h1>
 		<h2>Trapeze act</h2>
-	</header>
+</header>
+
+<div>
 
 	<p>The performers are : Maddie and Rob Hangunevenly</p>
-	
-	<article>
+
+</div>	
+
+<article>
 	<p>Maddie and Rob fly to the air with the greatest of ease, defying the gravity. You will hold your breath while this intense act !!
 	</p> 
-	</article>
+</article>
 	
-	<footer>
-		<a href="wild circus.html">Home</a>
-	</footer>
+<footer>
+		<a href="index.html">Home</a>
+</footer>
 
 	</body>
 </html>
