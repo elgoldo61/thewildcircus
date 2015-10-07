@@ -96,7 +96,8 @@ div 	{
 	position: absolute;
 	right: 20px;
 	bottom: 20px;
-	border: solid black;
+	border: solid white;	
+	max-width: 90%;
 	}
 
 	</style>

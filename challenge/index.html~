@@ -64,7 +64,7 @@ body 	{
 	background: url("http://s1.lemde.fr/image/2011/12/28/1167x778/1623495_6_0106_cirque-gruss.jpg");
 	background-size: cover;
 	font-family: "trebuchet MS", Arial, sans-serif;
-	max-width: 5000px;
+	font-size: 100%;
 	}
 
 a 	{
@@ -86,7 +86,7 @@ a:active
 footer  {
 	position: absolute;
 	background-color: black;
-	width: 15%;
+	width: 16%;
 	right: 50px;
 	text-align: center;
 	top: 630px;
@@ -103,8 +103,8 @@ span 	{
 
 .circus	{
 	float: right;
-	padding: 10px;
 	border: solid black;
+	max-width: 100%;
 	}	
 	
 	</style>
