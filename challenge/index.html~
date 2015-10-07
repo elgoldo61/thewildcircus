@@ -64,7 +64,6 @@ body 	{
 	background: url("http://s1.lemde.fr/image/2011/12/28/1167x778/1623495_6_0106_cirque-gruss.jpg");
 	background-size: cover;
 	font-family: "trebuchet MS", Arial, sans-serif;
-	font-size: 100%;
 	}
 
 a 	{
@@ -89,7 +88,7 @@ footer  {
 	width: 16%;
 	right: 50px;
 	text-align: center;
-	top: 630px;
+	top: 50x;
 	}
 
 span 	{

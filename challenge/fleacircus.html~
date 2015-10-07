@@ -59,7 +59,8 @@ footer	{
 	position: absolute;
 	left: 100px;
 	border: solid red;
-	bottom: 100px;
+	top: 100px;
+	border-radius: 5px;
 	}
 		
 p	{	
@@ -99,7 +100,7 @@ a	{
 	position: absolute;
 	max-width: 18%;
 	top: 10px;
-	border: solid black;
+	border: solid red;
 	
 	}
 	</style>

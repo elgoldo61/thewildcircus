@@ -62,7 +62,7 @@ footer	{
 	position: absolute;
 	left: 100px;
 	border: solid red;
-	bottom: 100px;
+	top: 100px;
 	}
 
 article {
@@ -97,7 +97,7 @@ div 	{
 	right: 20px;
 	bottom: 20px;
 	border: solid white;	
-	max-width: 90%;
+	max-width: 100%;
 	}
 
 	</style>

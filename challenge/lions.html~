@@ -61,6 +61,7 @@ footer	{
 	left: 100px;
 	border: solid red;
 	bottom: 100px;
+	border-radius: 5px;
 	}
 	
 p	{	
@@ -129,6 +130,7 @@ a	{
 </div>
 
 <img src="lion.jpg" class="lion">
+
 <footer>
 	<a href="index.html">Home</a>
 </footer>

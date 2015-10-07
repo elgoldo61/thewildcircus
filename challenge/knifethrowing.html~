@@ -99,7 +99,7 @@ a	{
 	max-width: 20%;
 	right: 100px;
 	border: solid black;
-	bottom: 0.5px;
+	bottom:10px;
 	}
 
 	</style>
